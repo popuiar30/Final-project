@@ -20,4 +20,4 @@ My project works by training a neural network on images of ice cream cones and p
 4. Run the command `imagenet.py --model=$NET/resnet18.onnx --input_blob=input_0 --output_blob=output_0 --labels=$DATASET/labels.txt $DATASET/test/(name of class)/(image from class directory).jpg (where it will be saved.jpg)`
 5. Look in the terminal output to see the classification and confidence level of the input image
 
-[View a video explanation here](video link)
+[View a video explanation here](https://www.youtube.com/watch?v=VO0ZR6VkR98)
