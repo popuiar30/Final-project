@@ -13,7 +13,7 @@ popsicle
 My project works by training a neural network on images of ice cream cones and popsicles. I retrained resnet-18 imagenet on the Jetson Nano. I ran the training for several hours until test accuracy was consistently over 95%.
 
 ## Running this project
-
+0. download my model and data here https://drive.google.com/drive/u/0/folders/13pqkcjEmhWofdkb5BHNmF9SIIdS1qfLq
 1. Clone dusty-nv's jetson-inference libary using the command `git clone --recursive https://github.com/dusty-nv/jetson-inference`
 2. Navigate to the /home/nvidia/jetson-inference/python/training/classification
 3. After putting the dataset in /jetson-inference/python/training/classification/data and the model in /jetson-inference/python/training/classification/models, set bash enviorment variables "NET=models/ice_cream" and "DATASET = data/ice_cream"
